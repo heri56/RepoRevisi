@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use Symfony\Component\HttpKernel\Exception\HttpException;
 use Closure;
 
 class DownMaintenanceWebsite
